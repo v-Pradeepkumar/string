@@ -11,3 +11,30 @@ int main() {
     "how are you");
     return 0;
 }
+
+
+
+
+
+
+// try to copy a string to array (without null character in array so undefined error occurs)
+#include <stdio.h>
+
+int main() {
+   char s[5] = "hello";
+   char t[5] ;
+   int i ;
+   for(i = 0 ; s[i] !='\0' ; i++)
+   {
+       t[i] = s[i] ;
+   }
+    printf("%s", t) ;
+    return 0;
+}
+
+
+
+
+
+
+
