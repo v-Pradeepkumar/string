@@ -60,3 +60,26 @@ int main() {
 
 
 
+
+
+
+// writing string using puts(),here we use 2 puts() so it prints 2 times o/p hello hello
+#include <stdio.h>
+
+int main() {
+    char *s = "hello";
+    puts(s);
+    puts(s);
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
