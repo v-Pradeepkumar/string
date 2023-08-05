@@ -183,6 +183,25 @@ int main() {
 
 
 
+// find the o/p>> 2011 p = 1000 ; p[3] = E >> ascii = 69 ;p[1] = A >> ascii = 65 anyway from = 1004 then fron 2
+#include <stdio.h>
+
+int main() {
+    char c[] = "GATE2011" ;
+    char *p = c;
+    printf("%s", p + p[3] - p[1]);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
 
 
 
