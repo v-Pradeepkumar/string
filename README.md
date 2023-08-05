@@ -105,6 +105,24 @@ int main() {
 
 
 
+// reading  string using gets() i/p>>enter the string:>>  you are most           o/p>>you are m
+// gets() for print space in a string.here we consder the length of the array when it exceed in printf program will segmentation fault 
+#include <stdio.h>
+
+int main() {
+    char a[10] ;
+   printf ("enter the string:\n ");     
+   gets(a) ;
+   printf("%.9s",a);
+    return 0;
+}
+
+
+
+
+
+
+
 
 
 
