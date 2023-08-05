@@ -147,6 +147,17 @@ int main() {
 
 
 
+// putchar() function in C putchar() is used for print a character  using integer input  o/p >> ABCDEFGHIJKLMNOPQRSTUVWXYZ
+#include <stdio.h>
+
+int main() {
+    int ch ;
+    for(ch = 'A' ; ch <= 'Z' ; ch++)
+    putchar( ch ) ;
+
+    return 0;
+}
+
 
 
 
