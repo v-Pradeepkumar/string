@@ -90,6 +90,22 @@ int main() {
 
 
 
+// reading  string using scanf i/p>>enter the string:>>   you are most welcome         o/p>>you
+// string doesnot print space in string
+#include <stdio.h>
+
+int main() {
+    char a[10] ;
+   printf ("enter the string:\n ");     
+   scanf("%s",a) ;
+   printf("%s",a);
+    return 0;
+}
+
+
+
+
+
 
 
 
