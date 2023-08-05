@@ -77,6 +77,18 @@ int main() {
 
 
 
+//"%m.ns" here m is size of string we want to print .n is how many character we want to print in that string , s is for print string datatype
+#include <stdio.h>
+
+int main() {
+    char *s = "hello";
+   printf ("%6.3s",s);      //o/p >> hel
+    return 0;
+}
+
+
+
+
 
 
 
