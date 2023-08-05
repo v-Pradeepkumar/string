@@ -165,4 +165,27 @@ int main() {
 
 
 
+// find the o/p >> no o/p willbe printed here starting length of string is 6 but the  print() consider the null character in the string also so when the null character is printed on the o/p it will not go to the next  character printing 
+#include <stdio.h>
+#include<string.h>
+int main() {
+    char p[20] ;
+    char *s = "string" ;
+    int length = strlen(s) ;
+    int i ;
+    for(i = 0 ; i < length ; i++)
+    p[i] = s[length - i] ;
+    printf("%s", p) ;
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
 
